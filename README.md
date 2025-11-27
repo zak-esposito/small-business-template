@@ -107,8 +107,9 @@ This workflow lets you quickly build niche websites for any small business.
 ## 👤 Author
 
 **Zak Esposito**
-BSc Computer Science — Cardiff University
-GitHub: [https://github.com/zakimbo](https://github.com/zakimbo)
+BSc Computer Science with a Year in Industry — Cardiff University
+
+GitHub: [https://github.com/zak-esposito](https://github.com/zak-esposito)
 
 ---
 
