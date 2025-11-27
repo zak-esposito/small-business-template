@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <section id="hero" className="relative overflow-hidden bg-slate-900 py-16 sm:py-24 lg:py-32">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-16 lg:items-center">
           
           {/* Left Column: Text Content */}
@@ -15,17 +15,18 @@ export default function Hero() {
             
             <div className="mt-8 flex flex-col w-full sm:w-auto sm:flex-row gap-4">
               <button
-                type="button"
-                className="inline-flex items-center justify-center rounded-lg bg-indigo-600 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transition-colors duration-200"
-              >
-                Book now
-              </button>
-              <button
-                type="button"
-                className="inline-flex items-center justify-center rounded-lg border border-slate-700 bg-transparent px-6 py-3 text-base font-semibold text-slate-200 shadow-sm hover:bg-slate-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-400 transition-colors duration-200"
-              >
-                View services
-              </button>
+                  type="button"
+                  className="inline-flex items-center justify-center rounded-lg bg-indigo-500 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 transition-colors duration-200"
+                >
+                  Book now
+                </button>
+
+                <button
+                  type="button"
+                  className="inline-flex items-center justify-center rounded-lg border border-slate-700 bg-slate-900/60 px-6 py-3 text-base font-semibold text-slate-200 shadow-sm hover:bg-slate-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-400 transition-colors duration-200"
+                >
+                  View services
+                </button>
             </div>
           </div>
 
@@ -36,14 +37,14 @@ export default function Hero() {
             <div className="absolute -bottom-12 -right-12 -z-10 h-64 w-64 rounded-full bg-purple-500/20 blur-3xl sm:-bottom-16 sm:-right-16 lg:h-80 lg:w-80"></div>
             
             <div className="relative overflow-hidden rounded-2xl bg-slate-800 shadow-2xl ring-1 ring-white/10">
+              <div className="absolute inset-0 bg-gradient-to-tr from-slate-900/20 via-transparent to-indigo-500/15" />
               <img
                 src="https://picsum.photos/800/600"
                 alt="Business team collaborating on a project"
-                className="h-full w-full object-cover object-center"
+                className="relative h-full w-full object-cover object-center"
               />
             </div>
           </div>
-
         </div>
       </div>
     </section>

@@ -18,7 +18,7 @@ export default function Services() {
   ];
 
   return (
-    <section id="services" className="py-16 bg-slate-50">
+    <section id="services" className="scroll-mt-24 py-16 bg-slate-50">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
@@ -50,7 +50,15 @@ export default function Services() {
             </div>
           ))}
         </div>
-        
+        <p className="mt-8 text-sm text-slate-500">
+          Need something more bespoke?{" "}
+          <a
+            href="#contact"
+            className="font-medium text-indigo-600 hover:text-indigo-500"
+          >
+            Get in touch →
+          </a>
+        </p>
       </div>
     </section>
   );

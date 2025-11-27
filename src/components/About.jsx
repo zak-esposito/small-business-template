@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section id="about" className="py-16 bg-white">
+    <section id="about" className="scroll-mt-24 py-16 bg-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-16 lg:items-center">
           
@@ -18,6 +18,11 @@ export default function About() {
             <p className="mt-4 text-lg leading-relaxed text-slate-600">
               We believe in the power of collaboration. Our team works closely with you to understand your unique challenges, ensuring that every solution we build is tailored to help your business thrive in a competitive landscape.
             </p>
+            <ul className="mt-4 space-y-2 text-sm text-slate-600">
+              <li>• Clear, transparent pricing with no hidden fees.</li>
+              <li>• Fast turnaround tailored for small businesses.</li>
+              <li>• Friendly support when you need updates or changes.</li>
+            </ul>
           </div>
 
           {/* Right Column: Image */}
