@@ -21,6 +21,24 @@ Built by **Zak Esposito**.
 
 ---
 
+## 📸 Screenshots
+
+### 🖥️ Full Homepage
+![Homepage Screenshot](./assets/homepage.png)
+
+### 💼 Services Section
+![Services Screenshot](./assets/services.png)
+
+### ℹ️ About Section
+![About Screenshot](./assets/about.png)
+
+### ✉️ Contact Form
+![Contact Screenshot](./assets/contact.png)
+
+
+---
+
+
 ## 🛠 Tech Stack
 
 * **React (Vite)**
