@@ -5,7 +5,7 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 bg-slate-900/80 backdrop-blur border-b border-slate-800">
-      <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6">
+      <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6" aria-label="Main navigation">
         {/* Logo */}
         <a href="#hero" className="text-lg font-semibold text-white">
           <span className="font-extrabold">Acme</span>{" "}
@@ -39,29 +39,35 @@ export default function Navbar() {
       {/* Mobile dropdown */}
       {isOpen && (
         <div className="border-t border-slate-800 bg-slate-900 sm:hidden">
-          <div className="mx-auto flex max-w-6xl flex-col space-y-2 px-4 py-3 text-sm font-medium text-slate-200">
-            <a
-              href="#services"
-              className="hover:text-white transition-colors"
-              onClick={() => setIsOpen(false)}
-            >
-              Services
-            </a>
-            <a
-              href="#about"
-              className="hover:text-white transition-colors"
-              onClick={() => setIsOpen(false)}
-            >
-              About
-            </a>
-            <a
-              href="#contact"
-              className="hover:text-white transition-colors"
-              onClick={() => setIsOpen(false)}
-            >
-              Contact
-            </a>
-          </div>
+          <ul className="mx-auto flex max-w-6xl flex-col space-y-2 px-4 py-3 text-sm font-medium text-slate-200">
+            <li>
+              <a
+                href="#services"
+                className="hover:text-white transition-colors"
+                onClick={() => setIsOpen(false)}
+              >
+                Services
+              </a>
+            </li>
+            <li>
+              <a
+                href="#about"
+                className="hover:text-white transition-colors"
+                onClick={() => setIsOpen(false)}
+              >
+                About
+              </a>
+            </li>
+            <li>
+              <a
+                href="#contact"
+                className="hover:text-white transition-colors"
+                onClick={() => setIsOpen(false)}
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
         </div>
       )}
     </header>
